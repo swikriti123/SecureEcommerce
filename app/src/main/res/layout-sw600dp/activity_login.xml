@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="@drawable/bg1"
+tools:context=".LoginActivity">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_marginTop="30dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="50dp">
+
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/logo1"
+        android:layout_gravity="center"/>
+
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="18dp"
+        android:background="@drawable/edittext_background"
+        android:hint="Username"
+        android:textColor="#ec407a"
+        android:fontFamily="serif"
+        android:paddingLeft="18dp"
+        />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="14dp"
+        android:background="@drawable/edittext_background"
+        android:hint="Password"
+        android:textColor="#ec407a"
+        android:inputType="textPassword"
+        android:fontFamily="serif"
+        android:paddingLeft="18dp"
+        />
+    <Button
+        android:id="@+id/btnlogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:background="@drawable/round_btn"
+        android:text="Log In"
+        android:fontFamily="serif"
+        android:textColor="#ec407a"
+        android:textSize="16dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:layout_marginBottom="28dp"
+        android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/txtfg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:fontFamily="serif"
+        android:text="Forget your password?"
+        android:textColor="#ec407a"
+        android:textSize="14dp"
+        android:layout_marginLeft="25dp" />
+
+
+    <TextView
+        android:id="@+id/txtforgetpassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="2dp"
+        android:clickable="true"
+        android:fontFamily="serif"
+        android:text="Get help signing in."
+        android:textColor="#ec407a"
+        android:textSize="14dp" />
+    </LinearLayout>
+    <TextView
+        android:id="@+id/txtview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="-------------------OR----------------------"
+        android:layout_marginLeft="12dp"
+        android:textColor="#ec407a"
+        android:textSize="20dp"
+        android:layout_gravity="center"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:layout_marginBottom="28dp"
+        android:orientation="horizontal">
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/btnSignup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:text="Signup"
+        android:fontFamily="serif"
+        android:background="@drawable/round_btn"
+        android:textColor="#ec407a"
+        android:textSize="16dp" />
+    <Button
+        android:id="@+id/btnLoginWithFb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:background="@drawable/round_btn"
+        android:text="sign In with Facebook"
+        android:textColor="#ec407a"
+        android:fontFamily="serif"
+        android:textSize="16dp" />
+
+    </LinearLayout>
+
+
+</ScrollView>
+
+
+
+

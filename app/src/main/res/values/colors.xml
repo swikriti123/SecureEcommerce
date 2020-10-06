@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1A2B97</color>
+    <color name="colorPrimaryDark">#173F91</color>
+    <color name="colorAccent">#F2F2F2</color>
+    <color name="pink">#2F5299</color>
+    <color name="lightpink">#3678C7</color>
+    <color name="white">#F7F8FA</color>
+    <color name="black">#0A0505</color>
+    <color name="dashboardbackground">#f5f5f5</color>
+    <color name="txtcolor">#fff</color>
+    <color name="probg">#fff</color>
+
+</resources>
